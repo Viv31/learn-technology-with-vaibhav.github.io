@@ -1,0 +1,17 @@
+body{
+    background-image: url("img/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+  }
+  .container-fluid{
+    background-color: rgba(0,0,0,0.7);
+    height: auto;
+    position: absolute;
+    
+    background-repeat: repeat;
+}
+a{
+  text-decoration: none;
+}

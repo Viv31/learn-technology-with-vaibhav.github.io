@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Learn HTML</title>
+    <title>Learn HTML</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
 <!-- jQuery library -->
@@ -16,7 +16,7 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <style type="text/css">
-	body{
+    body{
     background-image: url("img/img1.jpg");
     background-position: center;
     background-size: cover;
@@ -35,93 +35,89 @@ a{
 }
 
 .breadcrumb{
-	background-color: rgba(0,0,0,0.7);
-	color: white;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
 }
 
 #content_sction{
-	background-color: rgba(0,0,0,0.7);
-	color: white;
-	padding: 10px;
-	border-radius: 10px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 
 }
 </style>
 </head>
 <body>
-	<div class="container">
-		<div class="col-md-12">
+    <div class="container">
+        <div class="col-md-12">
           <ol class="breadcrumb" style="margin-top: 10px;">
             <li><a href="index.html">Home</a></li>
             <li class="active">/Audio Blog</li>
           </ol>
         </div>
         <div class="row">
-        	<div class="col-md-10 mx-auto" id="content_sction">
-        		<h4><span class="bg-info">*</span> What is HTML ?</h4>
-        		<p>HTML is a Markup Language which is used for creating web pages.The Full form of HTML is "Hypertext Markup Language".Here Hypertext means Jumpable tags you can say that when you click on a tag it redirect to anothe(we will learn this in next level of html) and markaup means angular brackets ("&lt;&gt;").Html has prdefined content which is usde for making webpage is called HTML tags they are ("&lt;p &gt;","&lt;h1 &gt;","&lt;ul &gt;") and many more tags in html.</p>
+            <div class="col-md-10 mx-auto" id="content_sction">
+                <h4><span class="bg-info">*</span> What is HTML ?</h4>
+                <p>HTML is a Markup Language which is used for creating web pages.The Full form of HTML is "Hypertext Markup Language".Here Hypertext means Jumpable tags you can say that when you click on a tag it redirect to anothe(we will learn this in next level of html) and markaup means angular brackets ("&lt;&gt;").Html has prdefined content which is usde for making webpage is called HTML tags they are ("&lt;p &gt;","&lt;h1 &gt;","&lt;ul &gt;") and many more tags in html.</p>
 
 
-        		
-        	</div>
+                
+            </div>
 
-        	<div class="col-md-10 mx-auto mt-2" id="content_sction">
-        		<h4><span class="bg-info">*</span> How to save our html save and what is extension of HTML ?</h4>
-        		<p>Extension of HTML is .html you can create your first html file in following way 
-        			<ol>
-        				<li>Open Notepad</li>
-        				<li>Name Your file whatever you want.(<span class="bg-info">your website first page should be saved as index.html because when you open any browser search for index file first.</span>)</li>
-        				<li>add <span class="bg-warning">.html</span> after your file name like here my file name is my first html.html so here <b>.html</b> is file extension.</li>
-        				<li>After nameing your file select below dropdown "<b>All files</b>" and save your file.</li>
-        				<li>Now go to your folder you will see your file with your default browser icon,open your file and this time it will open in web browser.Congratulations! you have successfully saved your first html file. </li>
-        			</ol>
-        			<img src="img/How to save first html file.png" width="100%">
+            <div class="col-md-10 mx-auto mt-2" id="content_sction">
+                <h4><span class="bg-info">*</span> How to save our html save and what is extension of HTML ?</h4>
+                <p>Extension of HTML is .html you can create your first html file in following way 
+                    <ol>
+                        <li>Open Notepad</li>
+                        <li>Name Your file whatever you want.(<span class="bg-info">your website first page should be saved as index.html because when you open any browser search for index file first.</span>)</li>
+                        <li>add <span class="bg-warning">.html</span> after your file name like here my file name is my first html.html so here <b>.html</b> is file extension.</li>
+                        <li>After nameing your file select below dropdown "<b>All files</b>" and save your file.</li>
+                        <li>Now go to your folder you will see your file with your default browser icon,open your file and this time it will open in web browser.Congratulations! you have successfully saved your first html file. </li>
+                    </ol>
+                    <img src="img/How to save first html file.png" width="100%">
 
-        		</p>
-        	</div>
+                </p>
+            </div>
 
-        	<div class="col-md-10 mx-auto mt-2" id="content_sction">
-        		<h4><span class="bg-info">*</span> What is the basic Structure of HTML page ?</h4>
-        		<p>The Basic structure of html is following manner.
-        			<br>
-        			&lt;html&gt; //Opening tag  <br> 
-        				&lt;head&gt;<br>
-        					&lt;title&gt;Title of page &lt;/title&gt;<br>
-        				&lt;/head&gt;<br>
-        				&lt;body&gt;<br>
-        				//Body content is visible on browser.<br>
-        				&lt;/body&gt;<br>
-        			&lt;/html&gt; //Closing tag
-
-
-
-
-        			<ul>
-        				<li>Head</li>
-        				<li>Title</li>
-        				<li>Body</li>
-        			</ul>
-
-        			<span class="bg-info">Head:</span><br>
-        			head section is used for linking your <b>CSS files,Js Fles</b>.
-        			Head is not visible to you but it loads first and  calls all the script files ,css files.<br>
-        			in head section title section is included whiche is written by &lt;title&gt; Title of your page &lt;/title&gt; <br>
-        			Your title will be visibled on browser's tab.<br>
-
-        			Body contains all the content which is you want to show on your browser or on web page
+            <div class="col-md-10 mx-auto mt-2" id="content_sction">
+                <h4><span class="bg-info">*</span> What is the basic Structure of HTML page ?</h4>
+                <p>The Basic structure of html is following manner.
+                    <br>
+                    &lt;html&gt; //Opening tag  <br> 
+                        &lt;head&gt;<br>
+                            &lt;title&gt;Title of page &lt;/title&gt;<br>
+                        &lt;/head&gt;<br>
+                        &lt;body&gt;<br>
+                        //Body content is visible on browser.<br>
+                        &lt;/body&gt;<br>
+                    &lt;/html&gt; //Closing tag
 
 
 
 
+                    <ul>
+                        <li>Head</li>
+                        <li>Title</li>
+                        <li>Body</li>
+                    </ul>
 
+                    <span class="bg-info">Head:</span><br>
+                    head section is used for linking your <b>CSS files,Js Fles</b>.
+                    Head is not visible to you but it loads first and  calls all the script files ,css files.<br>
+                    in head section title section is included whiche is written by &lt;title&gt; Title of your page &lt;/title&gt; <br>
+                    Your title will be visibled on browser's tab.<br>
 
+                    Body contains all the content which is you want to show on your browser or on web page.
+                    <img src="img/page_structure.png" width="100%"><br>
+                    Here learn html is page title and google is body content.<br>
+                    We will discuss other term called footer which shows website content like <b>"Developed by " </b> this type of content is prsent in footer section.
 
-
-        		</p>
-        	</div>
+                </p>
+            </div>
         </div>
 
     </div>
-	
+    
 </body>
 </html>
